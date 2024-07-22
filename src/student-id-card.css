@@ -1,0 +1,62 @@
+.app-container{
+    margin: 25px auto;
+    border: 1px solid black;
+    
+}
+
+.app-head{
+    border-bottom: 1px solid black;
+    background: rgb(44, 6, 72);
+    color: white;
+    text-align: center;
+}
+.app-head h2{padding-top: 5px;padding-bottom: 5px;}
+.app-body h3{margin:10px auto;text-align: center;}
+.input-form{border-right: 1px solid black;}
+.input-form form{padding-left: 10px;}
+.card-container {
+   
+     /* width: 90vw;
+  height: 360px; */
+    border-radius: 10px;
+    margin: 20px;
+    background: #c8f3c0;
+    max-width: 500px;
+    padding: 10px;
+}
+.card-wrapper {
+    
+    height: auto; 
+    background-color: #fff;
+    background: linear-gradient(#f8f8f8, #fff);
+    box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5rem;
+    
+}
+.user-card{
+     width: 100%;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(#9c92bc, #a7a2cc);
+    text-align: center;}
+    .user-photo{
+        font-size: 7rem;
+        
+    }
+.card-body{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+
+@media (max-width:768px){
+   
+    .input-form {
+        border-right: none;
+    }
+   
+}
